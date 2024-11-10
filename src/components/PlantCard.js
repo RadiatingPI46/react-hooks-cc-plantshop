@@ -9,7 +9,7 @@ function PlantCard() {
   const [instock, setInstock]= useState(true)
 
   useEffect(()=>{
-    fetch(' http://localhost:6001/plants')
+    fetch(' https://react-hooks-cc-plantshop-4-54zw.onrender.com/plants')
     .then((response) => response.json())
     .then((data) => setPlants(data))
     .catch((error) => console.error("Error fetching data:", error));

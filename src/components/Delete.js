@@ -2,7 +2,7 @@ import React from 'react'
 
 function Delete({plant}) {
     function deleteCard(){
-        fetch(` http://localhost:6001/plants/${plant.id}`, {
+        fetch(` https://react-hooks-cc-plantshop-4-54zw.onrender.com/plants/${plant.id}`, {
           method: 'DELETE',
         });
         console.log("success");

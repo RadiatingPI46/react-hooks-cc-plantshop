@@ -15,7 +15,7 @@ function Updating({plant}) {
   };
   
   function handleUpdate() {
-    fetch(` http://localhost:6001/plants/${plant.id}`, {
+    fetch(` https://react-hooks-cc-plantshop-4-54zw.onrender.com/plants/${plant.id}`, {
         method: 'PATCH',
         body: JSON.stringify({
           name: name,

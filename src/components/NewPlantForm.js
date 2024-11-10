@@ -8,7 +8,7 @@ function NewPlantForm() {
 
   function update(){
 
-    fetch(' http://localhost:6001/plants', {
+    fetch('https://react-hooks-cc-plantshop-4-54zw.onrender.com/plants', {
       method: 'POST',
       body: JSON.stringify({
         name: name,
