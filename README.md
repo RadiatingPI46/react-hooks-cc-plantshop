@@ -12,7 +12,7 @@ The application includes a  form for adding new plants, a list of plants registe
 * And you are all done
 
 ## Live server
-* You can view the web live on [PlantShop]()
+* You can view the web live on [PlantShop](https://react-hooks-cc-plantshop-nine.vercel.app/)
 
 ## Known Bugs
 #### :The search bar can identify the plant but cannot filter the list to show it as the first plant.
