@@ -25,6 +25,6 @@ HTML, CSS , Uiverse.io , GIT, React, Json server
 email :: elijah.nzelu@student.moringaschool.com
 
 ### License
-*LIcenced under the [MT-licence]()*
+*LIcenced under the [MT-licence](https://github.com/RadiatingPI46/react-hooks-cc-plantshop/blob/master/LICENCE.md)*
 
 Copyright (c) 2024 **Elijah Elih**
