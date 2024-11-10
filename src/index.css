@@ -28,10 +28,10 @@ button.primary {
   color: white;
 }
 
-.app {
+/* .app {
   margin: 0 auto;
   max-width: 1200px;
-}
+} */
 
 header h1 {
   font-size: 2.5em;
@@ -135,3 +135,117 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
+
+/* From Uiverse.io by sabbircoder07 */ 
+.progress {
+  display: flex;
+  gap: 5px;
+  background: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width:100%;
+  height: 300px;
+  margin-top: 10%;
+  backface-visibility: hidden;
+}
+
+.inner:nth-child(1),
+.inner:nth-child(2),
+.inner:nth-child(3),
+.inner:nth-child(4),
+.inner:nth-child(5) {
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 3px;
+  animation: progress 1.2s ease-in infinite;
+}
+
+.inner:nth-child(1) {
+  background-color: #2193b0;
+  animation-delay: 0.15s;
+}
+
+.inner:nth-child(2) {
+  background-color: #48b1bf;
+  animation-delay: 0.25s;
+}
+
+.inner:nth-child(3) {
+  background-color: #56ab2f;
+  animation-delay: 0.35s;
+}
+
+.inner:nth-child(4) {
+  background-color: #614385;
+  animation-delay: 0.45s;
+}
+
+.inner:nth-child(5) {
+  background-color: #185a9d;
+  animation-delay: 0.55s;
+}
+
+@keyframes progress {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-60px);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* From Uiverse.io by elijahgummer */ 
+#container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #3498db,
+    #2ecc71
+  ); /* Gradient background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  position: relative;
+  overflow: hidden;
+}
+
+#container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none; /* Allow clicking through the pattern layer */
+}
+
+/* From Uiverse.io by martinval9 */ 
+.card {
+  background: rgb(40,40,55);
+  background: linear-gradient(344deg, rgba(40,40,55,1) 0%, rgba(16,16,18,1) 50%);
+  box-shadow: 4px 6px 14px #00000036;
+  border-radius: 3px;
+  color: #F9F9F9;
+  padding: 16px;
+  transition: all .3s;
+ }
+ 
+ .card:hover {
+  margin-top: -30px;
+ }
+ 
+
